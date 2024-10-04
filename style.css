@@ -1,9 +1,15 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
+  color: #000000;
   color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 header {
@@ -11,6 +17,8 @@ header {
   padding-left: 130px;
   padding-top: 105px;
   padding-right: 300px;
+  padding-bottom: 120px;
+  color: #000000;
 }
 
 .logo {
@@ -21,12 +29,9 @@ header {
 }
 
 .logo p {
-  font-family: Montserrat;
   font-size: 25px;
   font-weight: 900;
   line-height: 30.48px;
-  text-align: left;
-  color: #000000;
 }
 
 .logo-vf-image {
@@ -64,8 +69,6 @@ header {
 
 .nav-ref-container a {
   font-size: 24px;
-  color: inherit;
-  text-decoration: none;
   width: 151px;
 }
 
@@ -85,12 +88,106 @@ header {
   justify-content: space-between;
   align-items: left;
   text-align: left;
+  gap: 30px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.adv-name {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.adv-description {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ordered {
+  width: 142.26px;
+  height: 60px;
+  border-radius: 50px;
+  background: #E52626;
+  color: #FFFFFF;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #E52626;
+  cursor: pointer;
+}
+
+.ordered:hover {
+  background: #B71C1C;
+  border: 1px solid #B71C1C;
+  color: #F0F0F0;
 }
 
 main {
   background: #FFFFFF;
+  padding: 0px 87px 47px 87px;
 }
 
-footer {
+.menu-label {
+  align-self: center;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex: 0 0 33.33%;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card p {
+  width: 450px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.footer-cont {
   background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #EDA61D 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 157px;
+  padding-bottom: 75px;
+  gap: 20px;
+}
+
+.footer-ref {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+.footer-cont a {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer-cont a:hover {
+  font-weight: bold;
+}
+
+.footer-cont {
+  font-size: 20px;
+  font-weight: 510;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
 }

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Бургерная</title>
   <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -27,53 +28,58 @@
     </div>
     <div class="advertisement-container">
       <div class="adv-content">
-        <b>Быстрая доставка для Вас</b>
-        <p class="description">Сделай первый заказ и получи скидку 50%</p>
+        <p class="adv-name">Быстрая доставка для Вас</p>
+        <p class="adv-description">Сделай первый заказ и получи скидку 50%</p>
         <button class="ordered">Заказать</button>
       </div>
       <img class="adv-image" src="assets/burger_logo.png" alt="burger-image" />
     </div>
   </header>
   <main>
-    <h2>Меню</h2>
+    <h2 class="menu-label">Меню</h2>
+    <br>
     <div class="product-list">
-      <div class="product">
+      <div class="product-card">
         <img src="assets/burger_porduct.png" alt="burger">
         <p>Бургеры</p>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="assets/naggets.png" alt="naggets">
         <p>Блюда из курицы</p>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="assets/stake.svg" alt="stake">
         <p>Горячие блюда</p>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="assets/snakes_product.png" alt="snakes">
         <p>Закуски</p>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="assets/salat.png" alt="salat">
         <p>Салаты</p>
       </div>
-      <div class="product">
+      <div class="product-card">
         <img src="assets/desert.png" alt="desert">
         <p>Десерты</p>
       </div>
     </div>
   </main>
-  <footer>
-    <a class="loyalty">Программа лояльности</a>
-    <a class="confidenc">Политика конфиденциальности</a>
-    <a class="ofert">Договор оферты</a>
-    <a class="ooo">OOO "Vintage Food"</a>
-    <p class="copyright">&copy; Все права защищены</p>
-    <div class="contact-container">
-      <a class="contact-link"><img class="contact-logo" src="assets/vk.svg" alt="vk-link" /></a>
+  <footer class="footer-cont">
+    <div class="footer-ref">
+      <a href="#" class="loyalty">Программа лояльности</a>
+      <a href="#" class="confident">Политика конфиденциальности</a>
+      <a href="#" class="offer">Договор оферты</a>
     </div>
-    <div class="contact-container">
-      <a class="contact-link"><img class="contact-logo" src="assets/tg.svg" alt="tg-link" /></a>
+    <p class="ooo">OOO "Vintage Food"</a>
+    <p class="copyright">&copy; Все права защищены</p>
+    <div class="contacts">
+      <div class="contact-container">
+        <a class="contact-link" href="#"><img class="contact-logo" src="assets/vk.svg" alt="vk-link" /></a>
+      </div>
+      <div class="contact-container">
+        <a class="contact-link" href="#"><img class="contact-logo" src="assets/tg.svg" alt="tg-link" /></a>
+      </div>
     </div>
   </footer>
 </body>
