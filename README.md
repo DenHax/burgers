@@ -1,0 +1,3 @@
+```sh
+firefox index.html
+```
